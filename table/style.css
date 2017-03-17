@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  font-size: 80%;
+	table-layout: fixed;
+	text-align: center;
+}
+th
+{
+	font-weight: normal;
+	padding: 10px 8px;
+}
+td
+{
+	padding: 6px 12px;
+}
+tr
+{
+	border-bottom: 1px solid rgb(224, 224, 224);
+}
