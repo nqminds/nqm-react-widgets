@@ -111,8 +111,7 @@ class Table extends React.Component {
       });
       return <tr>{columns}</tr>;
     });
-
-    return (
+    const controls = (
       <div>
         <IconButton
           disabled={this.state.page === 0}
@@ -135,6 +134,12 @@ class Table extends React.Component {
         >
           <Next />
         </IconButton>
+      </div>
+    );
+
+    return (
+      <div>
+        {this.props.data.length > this.props.itemsPerPage ? controls : ""}
         <table>
           <thead>
             <tr>{headers}</tr>
@@ -146,7 +151,6 @@ class Table extends React.Component {
       </div>
     );
   }
-
 }
 
 Table.propTypes = {
