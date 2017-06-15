@@ -1,0 +1,26 @@
+{
+  "name": "time-series",
+  "version": "0.1.0",
+  "description": "A react friendly D3 time series widget",
+  "main": "time-series.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IGlautier",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.9.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.10.2",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-node": "^3.0.4",
+    "eslint-plugin-react": "^6.7.1"
+  }
+}
