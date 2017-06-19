@@ -1,0 +1,35 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.horizontalGrid {
+	fill: none;
+	stroke: grey;
+	stroke-width: "1px";
+	shape-rendering: crispEdges;
+	stroke-dasharray: 3, 3;
+}
+
+.verticalGrid {
+	fill: none;
+	stroke: grey;
+	stroke-width: "1px";
+	shape-rendering: crispEdges;
+	stroke-dasharray: 3, 3;
+}
